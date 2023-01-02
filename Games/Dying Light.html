@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Dying Light</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Battle Field">
+    <meta name="keywords" content="warrior, game, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <!-- <link href="/images/battleField4/favicon.ico" rel="icon" type="image/x-icon" > -->
+    <link rel="icon" href="../images/DyingLight/dyinglighticon.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/Games.css" />
+    <link rel="stylesheet" href="../css/animate.css" />
+    <link rel="stylesheet" href="../css/DyingLight.css" />
+    
+    
+    
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- common header -->
+    <iframe style="width:100%;height:71px;border:none;" src="../header_nav.html"
+        onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()">
+    </iframe>
+
+    <!--Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header section -->
+
+    <header class="header-section ">
+        <div class="container">
+            <!-- logo -->
+            <!-- <a class="site-logo" href="index.html">
+				<img src="../images/battleField4/logo.png" alt="" style=" height:50px;margin: 0;padding: 0;">
+			</a> -->
+            <div class="user-panel">
+                <a href="#">Login</a> / <a href="#">Register</a>
+            </div>
+            <!-- responsive -->
+            <div class="nav-switch">
+                <i class="fa fa-bars"></i>
+            </div>
+            <!-- site menu -->
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#feature">Feature</a></li>
+                    <li><a href="#requiremnet">Requirement</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#version">Version</a></li>
+                    <!-- <li><a href="#">Contact</a></li> -->
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Header section end -->
+
+
+    <!-- Carousel section -->
+    <div id="video-carousel-example" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" style="height:450px ; ">
+                <video class="video-fluid d-block w-100" autoplay loop muted>
+                    <source src="../video/DyingLight/DyingLight1.mp4">
+                </video>
+                <div class="carousel-caption line" style="margin-bottom: 150px;">
+                    <h2 class="lineUp" style="font-size: 55px;color: #f55252;"><span
+                            style="color:rgb(105, 241, 117);">Dying Light :</span> The Best Games Out There</h2>
+                    <p class="lineUp" style="color:rgb(244, 250, 173);font-size:18px ;"> Dying Light First-person action survival <br> game set in a post-apocalyptic open world overrun by flesh-hungry zombies. 
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- <section class="hero-section">
+        <div class="hero-slider owl-carousel">
+            <video class="hs-item set-bg" style="z-index:1 ;" controls="controls" src="../video/Godlike.mp4" autoplay> -->
+    <!-- <div class="hs-text">
+                    <div class="container">
+                        <h2><span>BattleField 4 :</span> The Best Games Out There</h2>
+                        <p>Embrace unrivaled destruction in Battlefield 4™. in the glorious <br> chaos of all-out war
+                            packed with rewarding, tactical<br> challenges in an interactive environment.</p>
+
+                    </div>
+                </div>
+            </video> -->
+    <!-- </div> -->
+    <!-- <div class="hs-item set-bg" data-setbg="../images/battleField4/slider-2.png">
+                <div class="hs-text">
+                    <div class="container">
+                        <h2><span>BattleField 4 :</span> The Best Games Out There</h2>
+                        <p>Battlefield is a series of first-person shooter video games developed by Swedish company EA
+                            <br>
+                            DICE and is published by American company Electronic Arts. It started out on Microsoft <br>
+                            Windows and OS X with Battlefield 1942, which was released in 2002.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Carousel section end -->
+
+
+
+    <!-- Latest news section -->
+    <div class="latest-news-section">
+        <div class="ln-title">Latest News</div>
+        <div class="news-ticker">
+            <div class="news-ticker-contant">
+                <div class="nt-item"><span class="new">new</span>Airdrops Reinforcements Event Is Back
+                </div>
+                <div class="nt-item"><span class="strategy">new</span>LABOR OF LOVE: Dying Light
+                </div>
+                <div class="nt-item"><span class="racing">new</span>Dying 2 Know Special Episode On Nov 6
+                </div>
+                <div class="nt-item"><span class="strategy">new</span>Left 4 Dead 2 crossover event is back!
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Latest news section end -->
+
+
+
+    <!-- about -->
+    <section id="about" class="about-top-section spad" style="padding-bottom: 150px;">
+        <h2 style="color:crimson ;text-align: center;margin-top:25px ;margin-bottom:8px ;">About</h2>
+        <div class="container">
+            <div class="about-top-bg aboutdyinglight">
+                <img src="../images/DyingLight/dyinglogo2.png" class="" alt="...">
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about-logo text-white">
+                        <img src="../images/DyingLight/dyinglighticon.png" alt="">
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="about-widget mb-5 mb-md-0">
+                        <h4 class="fw-title">About This Game</h4>
+                        <img src="../images/DyingLight/dying1top.jpg" alt="">
+                        <div class="latest-blog">
+                            <div class="lb-item">
+                                <!-- <div class="lb-thumb set-bg" data-setbg="/images/battleField4/latest-blog/1.jpg"></div> -->
+                                <div class="lb-content">
+                                    <!-- <div class="lb-date" > -->
+                                    <table class="lb-date" style="padding-bottom:4px ;color:white;">
+                                        <tr class="about_tr">
+                                            <td>TITLE</td>
+                                            <td> : </td>
+                                            <td>Dying Light</td>
+                                        </tr>
+                                        <tr class="about_tr">
+                                            <td>GENRE</td>
+                                            <td> : </td>
+                                            <td>Action,RPG</td>
+                                        </tr>
+                                        <tr class="about_tr">
+                                            <td>DEVELOPER</i></td>
+                                            <td> : </td>
+                                            <td> Techland </td>
+                                        </tr>
+                                        <tr class="about_tr">
+                                            <td>PUBLISHER</td>
+                                            <td> : </td>
+                                            <td>Techland</td>
+                                        </tr>
+                                        <tr class="about_tr">
+                                            <td>AGE</td>
+                                            <td> : </td>
+                                            <td> 18+ </td>
+                                        </tr>
+                                        <tr class="about_tr">
+                                            <td>RELEASE DATE</td>
+                                            <td> : </td>
+                                            <td> 26 Jan, 2015 </td>
+                                        </tr>
+                                    </table>
+
+                                    <!-- </div> -->
+                                    <p style="color: #ffb320;">From the creators of hit titles Dead Island and Call of Juarez. Winner of over 50 industry awards and nominations. The game whose uncompromising approach to gameplay set new standards for first-person zombie games. Still supported with new content and free community events years after the release.First-person action survival game set in a post-apocalyptic open world overrun by flesh-hungry zombies. Roam a city devastated by a mysterious virus epidemic. <br></p>
+                                    <!-- <a href="#" class="lb-author">By Admin</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="about-widget mb-5 mb-md-0">
+                        <h4 class="fw-title">Updates</h4>
+
+                        <div class="latest-blog">
+                            <div class="lb-item">
+                                <!-- <div class="lb-thumb set-bg" data-setbg="/images/battleField4/latest-blog/1.jpg"></div> -->
+                                <div class="lb-content">
+                                    <!-- <div class="lb-date" > -->
+                                    <table class="lb-date" style="padding-bottom:15px ;">
+                                        <tr class="about_tr" style="padding-bottom:7px ;">
+                                            <td><i class="fa-solid fa-user"></i></td>
+                                            <td>Single Player</td>
+                                        </tr>
+                                        <tr class="about_tr" style="padding-bottom:7px ;">
+                                            <td><i class="fa-solid fa-users"></i></td>
+                                            <td>Online PvP</td>
+                                        </tr>
+
+                                        <tr class="about_tr" style="padding-bottom:7px ;">
+                                            <td><i class="fa-solid fa-gamepad"></i></td>
+                                            <td>Full Controller Support</td>
+                                        </tr>
+
+                                    </table>
+                                    <p style="padding-bottom: 7px;">Experience the ultimate adventure in Harran, thanks to Dying Light Definitive Edition!
+                                        Dying Light has been an incredible journey. We are incredibly proud of the staggering 7 years of support it has received.</p>
+                                    <!-- <a href="#" class="lb-author">By Admin</a> -->
+                                </div>
+                                <br>
+                                <img src="../images/DyingLight/dyingtop2.jpg" alt=""> <br>
+                                <img src="../images/DyingLight/dyingtop3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+        </div>
+
+        <!-- Home top section end -->
+
+        <!-- Feature section -->
+        <section class="feature-section spad set-bg" data-setbg="../images/DyingLight/dyingtop3.jpg">
+            <h2 style="color:crimson ;text-align: center;margin-top:18px ;margin-bottom:55px ;">Feature</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 p-0" style="left: 30px;">
+                        <div class="feature-item set-bg" style="font-size: larger;"
+                            data-setbg="../images/DyingLight/dyingtop5.jpg">
+                            <span class="cata new" style="left:70px;top:120px">Decent Graphics </span>
+                            <div class="fi-content text-white">
+                                <h5><a href="#"> There's a lot to be said for a game that remains popular despite being seven years old.outstanding graphics (aside from Days Gone), but Dying Light at times, can still be a feast for the eyes.</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0" style="left:60px ;">
+                        <div class="feature-item set-bg" style="font-size: larger;"
+                            data-setbg="../images/DyingLight/dyingtop6.jpg">
+                            <span class="cata strategy " style="left:50px;top:120px">Emotional Story</span>
+                            <div class="fi-content text-white">
+                                <h5><a href="#">It's a zombie survival game so an emotional story is almost a low-hanging fruit in Dying Light. There are but one has to give it praise for how it handles character development and emotional surprises.</a></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0" style="left:90px;">
+                        <div class="feature-item set-bg" style="font-size: larger;"
+                            data-setbg="../images/DyingLight/dyingtop7.jpg">
+                            <span class="cata new" style="left:50px;top:120px">ARPG Loot Mechanics</span>
+                            <div class="fi-content text-white">
+                                <h5><a href="#">Weapons in Dying Light have a way to keep players hooked on collecting. The crafted melee weapons and even the ones found lying about don't deal the same damage and do not swing at the same speed.</a></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Feature section end -->
+
+
+
+        <!-- Requiremnet section  -->
+        <section id="requiremnet" class="recent-game-section spad set-bg"
+            data-setbg="../images/DyingLight/dyingtop8.jpg">
+            <div class="container">
+                <div class="section-title">
+                    <!-- <div class="cata new">new</div> -->
+                    <h2 style="color:crimson ;text-align: center;margin-top:18px ;margin-bottom:65px ;">Requirement</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="recent-game-item">
+                            <div class="rgi-thumb set-bg" data-setbg="../images/DyingLight/dyingtop10.jpg">
+                                <div class="cata racing">MINIMUM</div>
+                            </div>
+                            <div class="rgi-content">
+                                <b>OS:</b> Windows&reg; 7 64-bit/Windows&reg; 8 64-bit/ Windows&reg; 8.1 64-bit <br>
+                                <b>Processor:</b> Intel&reg; Core i5-2500 @3.3GHz/ AMD FX-8320 @3.5 GHz
+                                <br>
+                                <b>Memory:</b> 4 GB RAM DDR3 <br>
+                                <b>Hard Drive:</b> 40 GB free space <br>
+                                <b>Graphics:</b> NVIDIA GeForce GTX 560 / AMD Radeon&trade; HD 6870 (1GB VRAM) <br>
+                                <b>DirectX:</b>Version 11<br>
+                                <b>Network:</b> Broadband Internet connection <br>
+                                
+                                <div class="rgi-extra">
+                                    <div class="rgi-star"><img src="../images/battleField4/icons/star.png" alt=""></div>
+                                    <div class="rgi-heart"><img src="../images/battleField4/icons/heart.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="recent-game-item">
+                            <div class="rgi-thumb set-bg" data-setbg="../images/DyingLight/dyingtop11.jpg">
+                                <div class="cata adventure">RECOMMENDED</div>
+                            </div>
+                            <div class="rgi-content">
+                                <b>OS:</b> Windows&reg; 7 64-bit/Windows&reg; 8 64-bit/ Windows&reg; 8.1 64-bit <br>
+                                <b>Processor:</b> Intel&reg; Core i5-2500 @3.3GHz/ AMD FX-8320 @3.5 GHz
+                                <br>
+                                <b>Memory:</b> 4 GB RAM DDR3 <br>
+                                <b>Hard Drive:</b> 40 GB free space <br>
+                                <b>Graphics:</b> NVIDIA GeForce GTX 560 / AMD Radeon&trade; HD 6870 (1GB VRAM) <br>
+                                <b>DirectX:</b>Version 11<br>
+                                <b>Network:</b> Broadband Internet connection <br>
+                                <div class="rgi-extra">
+                                    <div class="rgi-star"><img src="../images/battleField4/icons/star.png" alt=""></div>
+                                    <div class="rgi-heart"><img src="../images/battleField4/icons/heart.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Requiremnet section end -->
+
+        <!-- gallery section start -->
+        <h2 id="gallery" style="color:crimson ;text-align: center;margin-top:70px ;margin-bottom:55px ;">Gallery</h2>
+
+        <div class="gallery row">
+            <a href="../video/DyingLight/DyingLight2.mp4" class="col-10" target="_blank" data-lightbox="mygallery">
+                <div>
+                    <video  autoplay loop muted>
+                        <source src="../video/DyingLight/DyingLight2.mp4" style="width:50px ;">
+                    </video>
+                </div>
+            </a><br>
+                 <!-- <a href="../images/DyingLight/dyingtop12.jpg" class="col-3" style="padding-left: 40px; padding-top:80px ;"  target="_blank" data-lightbox="mygallery">
+                <img src="../images/DyingLight/dyingtop12.jpg">
+            </a> -->
+            <a href="../images/DyingLight/dyingtop13.jpg" class="col-3" target="_blank" data-lightbox="mygallery">
+                <img src="../images/DyingLight/dyingtop13.jpg">
+            </a>
+            <a href="../images/DyingLight/img2.jpg" class="col-3" target="_blank" data-lightbox="mygallery">
+                <img src="../images/DyingLight/img2.jpg">
+            </a>
+            <a href="../images/DyingLight/img3.jpg" class="col-3" target="_blank" data-lightbox="mygallery">
+                <img src="../images/DyingLight/img3.jpg">
+            </a>
+            <a href="../images/DyingLight/img4.jpg" class="col-3" target="_blank" data-lightbox="mygallery">
+                <img src="../images/DyingLight/img4.jpg">
+            </a>
+        </div>
+        <!-- gallery section end -->
+
+        <!-- Downloads=tournaments section -->
+        <section id="download" class="tournaments-section spad">
+            <h2 style="color:crimson ;text-align: center;margin-top:70px ;margin-bottom:55px ;">Download</h2>
+            <div class="container">
+                <div class="tournament-title">Official</div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="tournament-item ">
+                            <div class="ti-notic">Premium Download</div>
+                            <div class="ti-content">
+                                <div class="ti-thumb set-bg" data-setbg="../images/DyingLight/img1.png"></div>
+                                <div class="ti-text">
+                                    <a href="https://store.steampowered.com/agecheck/app/239140/" target="_blank">
+                                        <h4>Dying Light</h4>
+                                        <ul>
+                                            <li><span>Offer Ends:</span> December 12, 2022</li>
+                                            <li><span>Participants:</span>Single Player, Multiplayer</li>
+                                            <li><span> Developer:</span> 
+                                                CD PROJEKT RED</li>
+                                        </ul>
+                                        <p><span>Prizes:</span>₹ 269 ( 70% off <strike>₹ 899</strike> )
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tournament-item">
+                            <div class="ti-notic">Free Download</div>
+                            <div class="ti-content">
+                                <div class="ti-thumb set-bg" data-setbg="../images/DyingLight/img5.jpg"></div>
+                                <div class="ti-text">
+                                    <h4>Dying Light</h4>
+                                    <ul>
+                                        <li><span>Offer Ends:</span>Never</li>
+                                        <li><span>Participants:</span>Single Player, Multiplayer</li>
+                                        <li><span> Developer:</span> 
+                                            Techland</li>
+                                    </ul>
+                                    <p><span>Prizes:</span> Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tournaments section bg -->
+
+
+        <!--
+        <section id="version" class="review-section spad set-bg" style="background-color: white; padding-bottom: 20px;">
+            <h2 style="color:crimson ;text-align: center;margin-top:18px ;margin-bottom:55px ;">Version</h2>
+            <div class="container" style="width:980px">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://en.wikipedia.org/wiki/Battlefield_1" target="_blank">
+                            <div class="review-item">
+                                <div class="review-cover set-bg" data-setbg="../images/battleField4/review/1.png">
+                                    <div class="score yellow">1</div>
+                                </div>
+                                <div class="review-text">
+                                    <h5>Battle Field 1</h5>
+                                    <p>Battlefield 1 is a first-person shooter game developed by DICE and published by
+                                        Electronic Arts.</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://en.wikipedia.org/wiki/Battlefield_2" target="_blank">
+                            <div class="review-item">
+                                <div class="review-cover set-bg" data-setbg="../images/battleField4/review/2.png">
+                                    <div class="score purple">2</div>
+                                </div>
+                                <div class="review-text">
+                                    <h5>Battle Field 2</h5>
+                                    <p>Battlefield 2 is a first-person shooter with some strategy and Tactical
+                                        Shooter elements.</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://en.wikipedia.org/wiki/Battlefield_3" target="_blank">
+                            <div class="review-item">
+                                <div class="review-cover set-bg" data-setbg="../images/battleField4/review/3.png">
+                                    <div class="score green">3</div>
+                                </div>
+                                <div class="review-text">
+
+                                    <h5>Battle Field 3</h5>
+                                    <p>In Battlefield 3's campaign, players take on the personas of several military
+                                        roles.</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-top:25px ;">
+                    <div class="col-lg-6 col-md-6">
+                        <a href="https://en.wikipedia.org/wiki/Battlefield_4" target="_blank">
+                            <div class="review-item">
+                                <div class="review-cover set-bg" data-setbg="../images/battleField4/about_img3.png">
+                                    <div class="score pink">4</div>
+                                </div>
+                                <div class="review-text">
+                                    <h5>Battle Field 4</h5>
+                                    <p>Battlefield 4 was met with positive reception for its multiplayer mode, gameplay
+                                        and graphics.</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <a href="https://en.wikipedia.org/wiki/Battlefield_V" target="_blank">
+                            <div class="review-item">
+                                <div class="review-cover set-bg" data-setbg="../images/battleField4/review/5.png">
+                                    <div class="score yellow">5</div>
+                                </div>
+                                <div class="review-text">
+                                    <h5>Battle Field V</h5>
+                                    <p>Battlefield V is a first-person shooter game developed by DICE and published by
+                                        Electronic Arts. It is the eleventh main installment in the Battlefield series
+                                        and the successor to 2016's Battlefield 1, </p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+         -->
+
+        <!-- footer section -->
+        <iframe style="width:100%;height:315px;border:none;padding:0;" src="../footer.html"
+            onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe>
+
+        <!-- Footer section end -->
+
+
+        <!--====== Javascripts & Jquery ======-->
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="../js/jquery.marquee.min.js"></script>
+        <script src="../js/battle_filed4.js"></script>
+</body>
+
+</html>

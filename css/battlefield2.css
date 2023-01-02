@@ -1,0 +1,7 @@
+.aboutbattlefield2 {
+    position: absolute;
+    left: 127px;
+    bottom: 40px;
+    z-index: 1;
+    width: 250px;
+}

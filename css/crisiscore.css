@@ -1,0 +1,8 @@
+.aboutcrisis{ 
+position: absolute;
+    left: -162px;
+    bottom: 120px;
+    z-index: 1;
+    width: 650px;
+    height: 440px;
+}

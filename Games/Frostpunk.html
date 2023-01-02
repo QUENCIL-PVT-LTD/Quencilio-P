@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Frostpunk</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Battle Field">
+    <meta name="keywords" content="warrior, game, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <!-- <link href="/images/battleField4/favicon.ico" rel="icon" type="image/x-icon" > -->
+    <link rel="icon" href="../images/battleField4/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/Games.css" />
+    <link rel="stylesheet" href="../css/animate.css" />
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- common header -->
+    <iframe style="width:100%;height:71px;border:none;" src="../header_nav.html"
+        onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()">
+    </iframe>
+
+    <!--Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header section -->
+
+    <header class="header-section ">
+        <div class="container">
+            <!-- logo -->
+            <!-- <a class="site-logo" href="index.html">
+				<img src="../images/battleField4/logo.png" alt="" style=" height:50px;margin: 0;padding: 0;">
+			</a> -->
+            <div class="user-panel">
+                <a href="#">Login</a> / <a href="#">Register</a>
+            </div>
+            <!-- responsive -->
+            <div class="nav-switch">
+                <i class="fa fa-bars"></i>
+            </div>
+            <!-- site menu -->
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#feature">Feature</a></li>
+                    <li><a href="#requiremnet">Requirement</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <!-- <li><a href="#version">Version</a></li> -->
+                    <!-- <li><a href="#">Contact</a></li> -->
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Header section end -->
+
+
+    <!-- Carousel section -->
+    <div id="video-carousel-example" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" style="height:450px ; ">
+                <video class="video-fluid d-block w-100" autoplay loop muted>
+                    <source src="../images/Frostpunk/videofrostpunk.mp4">
+                </video>
+                <div class="carousel-caption line" style="margin-bottom: 150px;">
+                    <h2 class="lineUp" style="font-size: 55px;color: #f55252;"><span
+                            style="color:rgb(4, 248, 53);">Frostpunk:</span> The Best Games Out There</h2>
+                    <p class="lineUp" style="color:rgb(246, 222, 7);font-size:18px ;">Frostpunk is the first society
+                        survival game, <br>Players take on the role of a leader in an alternate-history late 19th
+                        century,
+                        <br>in which they must build and maintain a city during a worldwide volcanic winter.
+
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- <section class="hero-section">
+        <div class="hero-slider owl-carousel">
+            <video class="hs-item set-bg" style="z-index:1 ;" controls="controls" src="../video/Godlike.mp4" autoplay> -->
+    <!-- <div class="hs-text">
+                    <div class="container">
+                        <h2><span>BattleField 4 :</span> The Best Games Out There</h2>
+                        <p>Embrace unrivaled destruction in Battlefield 4™. in the glorious <br> chaos of all-out war
+                            packed with rewarding, tactical<br> challenges in an interactive environment.</p>
+
+                    </div>
+                </div>
+            </video> -->
+    <!-- </div> -->
+    <!-- <div class="hs-item set-bg" data-setbg="../images/battleField4/slider-2.png">
+                <div class="hs-text">
+                    <div class="container">
+                        <h2><span>BattleField 4 :</span> The Best Games Out There</h2>
+                        <p>Battlefield is a series of first-person shooter video games developed by Swedish company EA
+                            <br>
+                            DICE and is published by American company Electronic Arts. It started out on Microsoft <br>
+                            Windows and OS X with Battlefield 1942, which was released in 2002.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Carousel section end -->
+
+
+
+    <!-- Latest news section -->
+    <div class="latest-news-section">
+        <div class="ln-title">Latest News</div>
+        <div class="news-ticker">
+            <div class="news-ticker-contant">
+                <div class="nt-item"><span class="new">new</span>Medical facilities
+                </div>
+                <!-- <div class="nt-item"><span class="strategy">new</span> 
+                </div> -->
+                <div class="nt-item"><span class="racing">new</span> Allows the player to research technology 
+                </div>
+                <div class="nt-item"><span class="strategy">new</span>Priority position in server queue.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Latest news section end -->
+
+
+
+    <!-- about -->
+    <section id="about" class="about-top-section spad" style="padding-bottom: 150px;">
+        <h2 style="color:rgb(248, 31, 64) ;text-align: center;margin-top:25px ;margin-bottom:8px ;">About</h2>
+        <div class="container">
+            <div class="about-top-bg" style="width: 310px; padding-left: 1px;padding-top: 100px;">
+                <img src="../images/Frostpunk/logo2.png" alt="">
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about-logo text-white">
+                        <img src="../images/Frostpunk/logo.png" alt="">
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="about-widget mb-5 mb-md-0">
+                        <h4 class="fw-title">About This Game</h4>
+                        <img src="../images/Frostpunk/f7.jpg" alt="">
+                        <div class="latest-blog">
+                            <div class="lb-item">
+                                <!-- <div class="lb-thumb set-bg" data-setbg="/images/battleField4/latest-blog/1.jpg"></div> -->
+                                <div class="lb-content">
+                                    <!-- <div class="lb-date" > -->
+                                    <table class="lb-date" style="padding-bottom:4px ;color:white;">
+                                        <tr class="about_tr">
+                                            <td>TITLE</td>
+                                            <td> : </td>
+                                            <td>Frostpunk</td>
+                                        </tr>
+                                        <tr class="about_tr">
+                                            <td>GENRE</td>
+                                            <td> : </td>
+                                            <td>Action</td>
+                                        </tr>
+                                        <tr class="about_tr">
+                                            <td>DEVELOPER</i></td>
+                                            <td> : </td>
+                                            <td>
+
+                                                11 bit studios </td>
+                                        </tr>
+                                        <tr class="about_tr">
+                                            <td>PUBLISHER</td>
+                                            <td> : </td>
+                                            <td>
+
+                                                11 bit studios</td>
+                                        </tr>
+                                        <tr class="about_tr">
+                                            <td>AGE</td>
+                                            <td> : </td>
+                                            <td> 18+ </td>
+                                        </tr>
+                                        <tr class="about_tr">
+                                            <td>RELEASE DATE</td>
+                                            <td> : </td>
+                                            <td> 24 April, 2018 </td>
+                                        </tr>
+                                    </table>
+
+                                    <!-- </div> -->
+                                    <p style="color: #ffb320;">Frostpunk is a city-building survival videogame developed
+                                        and published by 11 bit studios. Players take on the role of a leader in an
+                                        alternate-history late 19th century, in which they must build and maintain a
+                                        city during a worldwide volcanic winter, managing resources, making choices on
+                                        how to survive, and exploring the area outside their city for survivors,
+                                        resources,
+                                        the productivity of their society at the cost
+                                        of possibly raising discontent,which can be achieved through heaters or steam
+                                        turbines, or completely circumvented with the introduction of machine labor, or
+                                        "Automatons".
+
+                                    </p>
+                                    <!-- <a href="#" class="lb-author">By Admin</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="about-widget mb-5 mb-md-0">
+                        <h4 class="fw-title">Updates</h4>
+
+                        <div class="latest-blog">
+                            <div class="lb-item">
+                                <!-- <div class="lb-thumb set-bg" data-setbg="/images/battleField4/latest-blog/1.jpg"></div> -->
+                                <div class="lb-content">
+                                    <!-- <div class="lb-date" > -->
+                                    <table class="lb-date" style="padding-bottom:15px ;">
+                                        <tr class="about_tr" style="padding-bottom:7px ;">
+                                            <td><i class="fa-solid fa-user"></i></td>
+                                            <td>Single Player</td>
+                                        </tr>
+                                        <tr class="about_tr" style="padding-bottom:7px ;">
+                                            <td><i class="fa-solid fa-users"></i></td>
+                                            <td>Online PvP</td>
+                                        </tr>
+
+                                        <tr class="about_tr" style="padding-bottom:7px ;">
+                                            <td><i class="fa-solid fa-gamepad"></i></td>
+                                            <td>Full Controller Support</td>
+                                        </tr>
+
+                                    </table><br>
+                                    <p style="padding-bottom: 7px;"><b>The game emphasizes the need to prioritize
+                                            buildings depending on the heat they require; houses and medical facilities
+                                            will require close placement to the reactor,lest the player face outbreaks
+                                            of frostbite and illness. Medical facilities and hothouses will need to be
+                                            kept above -20°C. </p>
+                                    <!-- <a href="#" class="lb-author">By Admin</a> -->
+                                </div>
+                                <br>
+                                <img src="../images/Frostpunk/f12.jpg" alt=""> <br>
+                                <img src="../images/Frostpunk/f13.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+        </div>
+
+        <!-- Home top section end -->
+
+        <!-- Feature section -->
+        <section class="feature-section spad set-bg" data-setbg="../images/Frostpunk/f12.jpg" id="feature">
+            <h2 style="color:crimson ;text-align: center;margin-top:18px ;margin-bottom:55px ;">Feature</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 p-0" style="left: 30px;">
+                        <div class="feature-item set-bg" style="font-size: larger;"
+                            data-setbg="../images/Frostpunk/f11.jpg">
+                            <span class="cata new" style="left:100px;top:120px">Frostpunk</span>
+                            <div class="fi-content text-white">
+                                <h5><a href="#"> Frostpunk is a city-building survival videogame developed and published
+                                        by 11 bit studios. Players take on the role of a leader in an alternate-history
+                                        late 19th century.</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0" style="left:60px ;">
+                        <div class="feature-item set-bg" style="font-size: larger;"
+                            data-setbg="../images/Frostpunk/f2.jpg">
+                            <span class="cata strategy " style="left:50px;top:120px">More resources More choices </span>
+                            <div class="fi-content text-white">
+                                <h5><a href="#">Maintain a city during a worldwide volcanic winter, managing resources,
+                                        making choices on how to survive, and exploring the area outside their city for
+                                        survivors, resources, or other useful items. </a></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0" style="left:90px;">
+                        <div class="feature-item set-bg" style="font-size: larger;"
+                            data-setbg="../images/Frostpunk/f3.jpg">
+                            <span class="cata new" style="left:50px;top:120px">Challenges And develope</span>
+                            <div class="fi-content text-white">
+                                <h5><a href="#"> The game features several scenarios to undertake, each with their own
+                                        stories and different challenges, also laws to develop better healthcare like
+                                        prosthetics or extra rations to the sick.</a>
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Feature section end -->
+
+
+
+        <!-- Requiremnet section  -->
+        <section id="requiremnet" class="recent-game-section spad set-bg" data-setbg="../images/Frostpunk/f2.jpg">
+            <div class="container">
+                <div class="section-title">
+                    <!-- <div class="cata new">new</div> -->
+                    <h2 style="color:crimson ;text-align: center;margin-top:18px ;margin-bottom:65px ;">Requirement</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="recent-game-item">
+                            <div class="rgi-thumb set-bg" data-setbg="../images/Frostpunk/f3.jpg">
+                                <div class="cata racing">MINIMUM</div>
+                            </div>
+                            <div class="rgi-content">
+                                <b>OS:</b>Windows 7/8/10 (64-bit)
+                                <br>
+                                <b>Processor:</b>3.2 GHz Dual Core Processor
+                                <br>
+                                <b>Memory:</b> 4 GB RAM <br>
+                                <b>Graphics:</b>  GeForce GTX 660, Radeon R7 370 or equivalent with 2 GB of video RAM
+
+                                <br>
+                                <b>Network:</b> Broadband Internet connection <br>
+                                <b>Storage:</b> 8 GB available space <br>
+                                <div class="rgi-extra">
+                                    <div class="rgi-star"><img src="../images/battleField4/icons/star.png" alt=""></div>
+                                    <div class="rgi-heart"><img src="../images/battleField4/icons/heart.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="recent-game-item">
+                            <div class="rgi-thumb set-bg" data-setbg="../images/Frostpunk/f6.jpg">
+                                <div class="cata adventure">RECOMMENDED</div>
+                            </div>
+                            <div class="rgi-content">
+                                <b>OS:</b> Windows 7/8/10 64-bit <br>
+                                <b>Processor:</b>3.2 GHz Quad Core Processor
+                                <br>
+                                <b>Memory:</b> 8 GB RAM <br>
+                                <b>Graphics:</b> Graphics: GeForce 970, Radeon RX 580 or equivalent with 4GB of video RAM
+                                <br>
+                                <b>Network:</b> Broadband Internet connection <br>
+                                <b>Storage:</b> 8 GB available space <br>
+                                <div class="rgi-extra">
+                                    <div class="rgi-star"><img src="../images/battleField4/icons/star.png" alt=""></div>
+                                    <div class="rgi-heart"><img src="../images/battleField4/icons/heart.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Requiremnet section end -->
+
+        <!-- gallery section start -->
+        <h2 id="gallery" style="color:crimson ;text-align: center;margin-top:60px ;margin-bottom:55px ;">Gallery</h2>
+
+        <div class="gallery row">
+            <a href="../images/Frostpunk/videofrostpunk.mp4" class="col-10" target="_blank" data-lightbox="mygallery"
+                style="padding-left: 220px;">
+                <div>
+                    <video autoplay loop muted>
+                        <source src="../images/Frostpunk/videofrostpunk.mp4">
+                    </video>
+                </div>
+            </a><br>
+            <!-- <a href="../images/battleField4/gallery/1.jpg" class="col-3" style="padding-left: 40px; padding-top:80px ;"
+                target="_blank" data-lightbox="mygallery">
+                <img src="../images/battleField4/gallery/1.jpg">
+            </a> -->
+            <a href="../images/Frostpunk/f1.jpg" class="col-3" target="_blank" data-lightbox="mygallery">
+                <img src="../images/Frostpunk/f1.jpg">
+            </a>
+            <a href="../images/Frostpunk/f5.jpg" class="col-3" target="_blank" data-lightbox="mygallery">
+                <img src="../images/Frostpunk/f5.jpg">
+            </a>
+            <a href="../images/Frostpunk/f3.jpg" class="col-3" target="_blank" data-lightbox="mygallery">
+                <img src="../images/Frostpunk/f3.jpg">
+            </a>
+            <a href="../images/Frostpunk/f4.jpg" class="col-3" target="_blank" data-lightbox="mygallery">
+                <img src="../images/Frostpunk/f4.jpg">
+            </a>
+        </div>
+        <!-- gallery section end -->
+
+        <!-- Downloads=tournaments section -->
+        <section id="download" class="tournaments-section spad">
+            <h2 style="color:crimson ;text-align: center;margin-top:70px ;margin-bottom:55px ;">Download</h2>
+            <div class="container">
+                <div class="tournament-title">Official</div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="tournament-item ">
+                            <div class="ti-notic">Premium Download</div>
+                            <div class="ti-content">
+                                <div class="ti-thumb set-bg" data-setbg="../images/Frostpunk/logo.png"></div>
+                                <div class="ti-text">
+                                    <a href="https://store.steampowered.com/app/323190/Frostpunk/"
+                                        target="_blank">
+                                        <h4>Frostpunk</h4>
+                                        <ul>
+                                            <!-- <li><span>Offer Ends:</span> December 16, 2022</li> -->
+
+                                            <li><span>Offer Ends:</span> December 19, 2022</li>
+
+                                            <li><span>Participants:</span>Single Player, Multiplayer</li>
+                                            <li><span> Developer:</span>
+                                                11 bit studios</li>
+                                        </ul>
+                                        <p><span>Prizes:</span>₹ 237/-( 75% off <strike>₹950</strike> )
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tournament-item">
+                            <div class="ti-notic">Free Download</div>
+                            <div class="ti-content">
+                                <div class="ti-thumb set-bg" data-setbg="../images/Frostpunk/f8.jpg"></div>
+                                <div class="ti-text">
+                                    <h4>Frostpunk</h4>
+                                    <ul>
+                                        <!-- <li><span>Offer Ends:</span>Never</li> -->
+                                        <li><span>Participants:</span>Single Player, Multiplayer</li>
+                                        <li><span> Developer:</span> 11 bit studios</li>
+                                    </ul>
+                                    <p><span>Prizes:</span> Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tournaments section bg -->
+
+
+        <!-- version section -->
+        <!-- <section id="version" class="review-section spad set-bg" style="background-color: white; padding-bottom: 20px;">
+            <h2 style="color:crimson ;text-align: center;margin-top:18px ;margin-bottom:55px ;">Version</h2>
+            <div class="container" style="width:980px">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://store.steampowered.com/app/1533006/SnowRunner__Season_1_Search__Recover/"
+                            target="_blank">
+                            <div class="review-item">
+                                <div class="review-cover set-bg" data-setbg="../images/snowrunner/s1.jpg">
+                                    <div class="score yellow">1</div>
+                                </div>
+                                <div class="review-text">
+                                    <h5>SnowRunner-1</h5>
+                                    <p>SnowRunner 1: Search & Recoveris a first-person shooter game developed by
+                                        Saber Interactive and published by
+
+                                        Focus Entertainment.</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://store.steampowered.com/app/1533007/SnowRunner__Season_2_Explore__Expand/"
+                            target="_blank">
+                            <div class="review-item">
+                                <div class="review-cover set-bg" data-setbg="../images/snowrunner/s2.jpg">
+                                    <div class="score purple">2</div>
+                                </div>
+                                <div class="review-text">
+                                    <h5>SnowRunner-2</h5>
+                                    <p>SnowRunner -2: Explore & Expand,developed by
+                                        Saber Interactive and published by
+
+                                        Focus Entertainment</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="https://store.steampowered.com/app/1533008/SnowRunner__Season_3_Locate__Deliver/"
+                            target="_blank">
+                            <div class="review-item">
+                                <div class="review-cover set-bg" data-setbg="../images/snowrunner/s3.jpg">
+                                    <div class="score green">3</div>
+                                </div>
+                                <div class="review-text">
+
+                                    <h5>SnowRunner-3</h5>
+                                    <p>SnowRunner 3: Locate & Deliver developed by
+                                        Saber Interactive and published by
+
+                                        Focus Entertainment.</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="container" style="width:980px">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <a href="https://store.steampowered.com/app/1533009/SnowRunner__Season_4_New_Frontiers/"
+                                target="_blank">
+                                <div class="review-item">
+                                    <div class="review-cover set-bg" data-setbg="../images/snowrunner/s4.jpg">
+                                        <div class="score purple">4</div>
+                                    </div>
+                                    <div class="review-text">
+                                        <h5>SnowRunner-4</h5>
+                                        <p>SnowRunner 4:New Frontiers developed by
+                                            Saber Interactive and published by
+
+                                            Focus Entertainment.</p>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <a href="https://store.steampowered.com/app/1585812/SnowRunner__Season_5_Build__Dispatch/"
+                                target="_blank">
+                                <div class="review-item">
+                                    <div class="review-cover set-bg" data-setbg="../images/snowrunner/s5.jpg">
+                                        <div class="score pink">5</div>
+                                    </div>
+                                    <div class="review-text">
+                                        <h5>SnowRunner- 5</h5>
+                                        <p>SnowRunner- 5: Build & Dispatch,developed by
+                                            Saber Interactive and published by
+
+                                            Focus Entertainment.</p>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <a href="https://store.steampowered.com/app/1585813/SnowRunner__Season_6_Haul__Hustle/"
+                                target="_blank">
+                                <div class="review-item">
+                                    <div class="review-cover set-bg" data-setbg="../images/snowrunner/s6.jpg">
+                                        <div class="score yellow">6</div>
+                                    </div>
+                                    <div class="review-text">
+
+                                        <h5>SnowRunner-6
+                                        </h5>
+                                        <p>SnowRunner -6: Haul & Hustle,developed by
+                                            Saber Interactive and published by
+
+                                            Focus Entertainment.</p>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row" style="padding-top:25px ;">
+                        <div class="col-lg-6 col-md-6">
+                            <a href="https://store.steampowered.com/app/1585814/SnowRunner__Season_7_Compete__Conquer/"
+                                target="_blank">
+                                <div class="review-item">
+                                    <div class="review-cover set-bg" data-setbg="../images/snowrunner/s7.jpg">
+                                        <div class="score pink">7</div>
+                                    </div>
+                                    <div class="review-text">
+                                        <h5>SnowRunner -7</h5>
+                                        <p>SnowRunner -7: Compete & Conquer.developed by
+                                            Saber Interactive and published by
+
+                                            Focus Entertainment.</p>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <a href="https://store.steampowered.com/app/1585815/SnowRunner__Season_8_Grand_Harvest/"
+                                target="_blank">
+                                <div class="review-item">
+                                    <div class="review-cover set-bg" data-setbg="../images/snowrunner/s8.jpg">
+                                        <div class="score green">8</div>
+                                    </div>
+                                    <div class="review-text">
+                                        <h5>SnowRunner -8</h5>
+                                        <p>SnowRunner - Season 8: Grand Harvest,developed by
+                                            Saber Interactive and published by
+
+                                            Focus Entertainment.</p>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section> -->
+        <!-- Review section end -->
+
+        <!-- footer section -->
+        <iframe style="width:100%;height:315px;border:none;padding:0;" src="../footer.html"
+            onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe>
+
+        <!-- Footer section end -->
+
+
+        <!--====== Javascripts & Jquery ======-->
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="../js/jquery.marquee.min.js"></script>
+        <script src="../js/battle_filed4.js"></script>
+</body>
+
+</html>

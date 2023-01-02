@@ -1,0 +1,8 @@
+.aboutjurassic{
+    position: absolute;
+    left: -118px;
+    bottom: 44px;
+    z-index: 1;
+    width: 560px;
+    height: 440px;
+}
